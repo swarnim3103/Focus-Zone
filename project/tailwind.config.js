@@ -1,8 +1,18 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [],
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customGreen: '#DEF9C4',
+        customGreen2:"#50B498",
+        customGreen3:"#468585",
+        customGreen4:"#9CDBA6"
+      },
+    },
   },
   plugins: [],
 }
