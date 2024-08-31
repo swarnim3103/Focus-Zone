@@ -8,7 +8,7 @@ function App() {
       <Hero />
     </section>
     <section id="about-us">
-      <About />
+        <About />
     </section>
     <section id="contact-us">
       <Footer />

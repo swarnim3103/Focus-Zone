@@ -2,16 +2,15 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { navlinks } from "../constants/index.js";
 
-// eslint-disable-next-line react/prop-types
 function Nav({ page }) {
   return (
-    <header className="py-6 z-10 w-full px-4 bg-customGreen">
+    <header className="py-6 z-10 w-full px-4 bg-customBlue4">
       <nav className="flex justify-between items-center mx-auto">
         <div className="ml-5 cursor-pointer">
           <Link to="/">
             <div className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-             <img src="project\src\assets\icons\student-svgrepo-com.svg"/>
-              <span className="ml-3 text-xl">SnakeVoyage</span>
+             <img src="src\assets\icons\port-detection-svgrepo-com.svg"/>
+              <span className="ml-3 text-xl">FocusZone</span>
             </div>
           </Link>
         </div>
@@ -40,7 +39,7 @@ function Nav({ page }) {
           })}
         </ul>
         <div className="flex gap-5 mr-5 text-xl cursor-pointer overflow-hidden">
-        {page === "home" && <Link to="/" className="underline font-bold">Get Started with Globe</Link>}
+        {page === "home" && <Link to="/" className="underline font-bold">Get Started</Link>}
           
         </div>
        

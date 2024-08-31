@@ -4,11 +4,11 @@ const Footer = () => {
         <footer className="text-gray-600 body-font">
           <div className="container px-0 py-8 mx-auto flex items-center sm:flex-row flex-col">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-              <img src="src\assets\icons\snake_logo.svg" />
-              <span className="ml-3 text-xl">SnakeVoyage</span>
+              <img src="src\assets\icons\port-detection-svgrepo-com.svg" />
+              <span className="ml-3 text-xl">FocusZone</span>
             </a>
             <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-              © 2024 SnakeVoyage
+              © 2024 FocusZone
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
               <a className="text-gray-500">
