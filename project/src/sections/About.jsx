@@ -1,6 +1,7 @@
 import React,{useRef} from "react";
 import { Canvas,useFrame } from "@react-three/fiber";
 import { OrbitControls, useGLTF, useAnimations } from "@react-three/drei";
+import { Link } from 'react-router-dom';
 const AnimatedModel = ({ url }) => {
   const { scene, animations } = useGLTF("src/assets/book.glb");
   
@@ -51,7 +52,9 @@ const About = () => {
       <div className="flex flex-1">
       <div className="flex-1 flex items-center justify-center ml-20 my-4">
         <h1 className="border-8 border-white rounded-lg p-4 bg-gradient-to-r from-customBlue4 to-customBlue2 text-xl  font-extralight">A short attention span refers to the difficulty in maintaining focus on a task or activity for an extended period. This can lead to distractions, reduced productivity, and difficulty completing tasks. It often results from overstimulation, stress, or habitual multitasking and can be exacerbated by digital media and constant notifications.</h1>
+        
       </div>
+
       <Canvas
     style={{ height: "900px",
       width: "800px"
@@ -61,7 +64,15 @@ const About = () => {
     <directionalLight position={[0, 0, 5]} intensity={1} />
     <RotatingModel url="src/assets/mobile.glb" />
   </Canvas>
-      
+  
+      </div>
+      <div className="flex justify-center mx-0">
+        <Link to="/dashboard">
+        <button className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700">
+          Learn More
+        </button>
+        </Link>
+        
       </div>
     </div>
    

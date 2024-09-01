@@ -15,19 +15,11 @@ const navlinks = [
       ],
     },
     {
-      pageName: "globe",
+      pageName: "dashboard",
       links: [
         {
           title: "Home",
           link: "/",
-        },
-        {
-          title: "Globe",
-          link: "#globe",
-        },
-        {
-          title: "About",
-          link: "#about-us",
         },
         
       ],

@@ -1,2 +1,3 @@
 import App from "../pages/App.jsx";
-export { App };
+import Dashboard from "../pages/Dashboard.jsx";
+export { App,Dashboard };

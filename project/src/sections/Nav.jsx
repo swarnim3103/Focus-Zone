@@ -39,7 +39,7 @@ function Nav({ page }) {
           })}
         </ul>
         <div className="flex gap-5 mr-5 text-xl cursor-pointer overflow-hidden">
-        {page === "home" && <Link to="/" className="underline font-bold">Get Started</Link>}
+        {page === "home" && <Link to="/dashboard" className="underline font-bold">Get Started</Link>}
           
         </div>
        
