@@ -1,7 +1,6 @@
 import React,{useRef} from "react";
 import { Canvas,useFrame } from "@react-three/fiber";
 import { OrbitControls, useGLTF, useAnimations } from "@react-three/drei";
-import { Link } from 'react-router-dom';
 const AnimatedModel = ({ url }) => {
   const { scene, animations } = useGLTF("src/assets/book.glb");
   
@@ -67,16 +66,8 @@ const About = () => {
   
       </div>
       <div className="flex justify-center mx-0">
-        <Link to="/dashboard">
-        <button className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700">
-          Learn More
-        </button>
-        </Link>
-        
       </div>
     </div>
-   
   );
 };
-
 export default About;

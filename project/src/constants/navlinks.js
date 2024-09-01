@@ -21,7 +21,19 @@ const navlinks = [
           title: "Home",
           link: "/",
         },
-        
+      ],
+    },
+    {
+      pageName: "section",
+      links: [
+        {
+          title: "Home",
+          link: "/",
+        },
+        {
+          title: "Dashboard",
+          link: "/dashboard",
+        },
       ],
     },
   ];

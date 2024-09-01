@@ -1,5 +1,5 @@
 import React from 'react';
-import {Nav,Footer,PomodoroTimer,Menu} from '../sections/index.js';
+import {Nav,Footer,PomodoroTimer,Menu,MotivationalQuote} from '../sections/index.js';
 
 const Dashboard = () => {
     return(
@@ -7,8 +7,8 @@ const Dashboard = () => {
         <Nav page="dashboard"/>
         <div className="bg-gradient-to-b from-customBlue4 to-white overflow-hidden">
             <PomodoroTimer/>
-<Menu/>
-        <h1>hello</h1>
+            <MotivationalQuote/>
+            <Menu/>
         </div>
        <Footer/>
         </>

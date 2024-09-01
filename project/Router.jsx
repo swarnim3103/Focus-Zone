@@ -1,7 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import {
   App,
-  Dashboard
+  Dashboard,
+  Game,
+  Notebook
 } from "./src/pages/index.js";
 
 function Router() {
@@ -10,6 +12,8 @@ function Router() {
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/game" element={<Game />} />
+        <Route path="/notebook" element={<Notebook />} />
       </Routes>
     </BrowserRouter>
   );

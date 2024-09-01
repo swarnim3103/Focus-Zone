@@ -34,7 +34,7 @@ const Typewriter = ({ text, typingSpeed = 150, erasingSpeed = 100, delay = 1000 
   }, [text, index, isTyping, typingSpeed, erasingSpeed, delay]);
 
   return (
-    <div className="text-8xl text-customBlue2 pt-20 pb-12 -ml-4 font-bold">
+    <div className="text-8xl text-customBlue3 pt-20 pb-12 -ml-4 font-bold">
       {displayedText}
     </div>
   );
