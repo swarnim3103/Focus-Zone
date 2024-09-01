@@ -7,5 +7,6 @@ import PomodoroTimer from "./PomodoroTimer.jsx";
 import Menu from "../sections/Menu.jsx";
 import MotivationalQuote from "./MotivationalQuotes.jsx";
 import PixelatedCharacter from "./PixelatedCharacter.jsx";
+import InfoCard from "./InfoCard.jsx";
 
-export { Nav, Footer, Hero, About , Typewriter,PomodoroTimer,Menu,MotivationalQuote,PixelatedCharacter};
+export { Nav, Footer, Hero, About , Typewriter,PomodoroTimer,Menu,MotivationalQuote,PixelatedCharacter,InfoCard};
