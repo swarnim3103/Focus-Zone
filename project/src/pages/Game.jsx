@@ -64,25 +64,25 @@ function Game() {
           </div>
           <div className="flex justify-center space-x-4 mt-4">
             <button
-              className="bg-green-500 px-4 py-2 rounded text-white font-bold"
+              className="bg-customBlue px-4 py-2 rounded text-white font-bold"
               onClick={() => handleAttack('punch')}
             >
               Punch
             </button>
             <button
-              className="bg-yellow-500 px-4 py-2 rounded text-white font-bold"
+              className="bg-blue-500 px-4 py-2 rounded text-white font-bold"
               onClick={() => handleAttack('kick')}
             >
               Kick
             </button>
             <button
-              className="bg-blue-500 px-4 py-2 rounded text-white font-bold"
+              className="bg-customBlue3 px-4 py-2 rounded text-white font-bold"
               onClick={() => handleAttack('blast')}
             >
               Blast
             </button>
             <button
-              className="bg-red-500 px-4 py-2 rounded text-white font-bold"
+              className="bg-blue-200 px-4 py-2 rounded text-white font-bold"
               onClick={() => handleAttack('smash')}
             >
               Smash

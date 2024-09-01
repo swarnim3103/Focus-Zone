@@ -8,7 +8,7 @@ const About = () => {
     <div className="flex flex-col bg-gradient-to-b from-customBlue4 to-white p-6">
       <div className="">
         <InfoCard
-         
+         title={"About"}
           description="A short attention span refers to the difficulty in maintaining focus on a task or activity for an extended period. This can lead to distractions, reduced productivity, and difficulty completing tasks. It often results from overstimulation, stress, or habitual multitasking and can be exacerbated by digital media and constant notifications."
           icon={<FaHeart className="text-blue-500" />}
         />
