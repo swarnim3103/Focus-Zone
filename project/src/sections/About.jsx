@@ -1,5 +1,5 @@
 import React,{useRef} from "react";
-import { Canvas } from "@react-three/fiber";
+import { Canvas,useFrame } from "@react-three/fiber";
 import { OrbitControls, useGLTF, useAnimations } from "@react-three/drei";
 const AnimatedModel = ({ url }) => {
   const { scene, animations } = useGLTF("src/assets/book.glb");
@@ -43,13 +43,17 @@ const About = () => {
     <directionalLight position={[0, 0, 5]} intensity={1} />
     <AnimatedModel url="src/assets/book.glb" />
   </Canvas>
-      <div className="flex-1 flex items-center justify-center mr-20 ">
+      <div className="flex-1 flex items-center justify-center mr-20 my-4">
         <h1 className="border-8 border-white rounded-lg p-4 bg-gradient-to-r from-customBlue4 to-customBlue2 text-xl  font-extralight">A short attention span refers to the difficulty in maintaining focus on a task or activity for an extended period. This can lead to distractions, reduced productivity, and difficulty completing tasks. It often results from overstimulation, stress, or habitual multitasking and can be exacerbated by digital media and constant notifications.</h1>
       </div>
       </div>
+      <h1 className="border-8 border-white rounded-lg p-4 bg-gradient-to-r from-customBlue4 to-customBlue2 text-xl  font-extralight mr-20 ml-20">A short attention span refers to the difficulty in maintaining focus on a task or activity for an extended period. This can lead to distractions, reduced productivity, and difficulty completing tasks. It often results from overstimulation, stress, or habitual multitasking and can be exacerbated by digital media and constant notifications.</h1>
       <div className="flex flex-1">
+      <div className="flex-1 flex items-center justify-center ml-20 my-4">
+        <h1 className="border-8 border-white rounded-lg p-4 bg-gradient-to-r from-customBlue4 to-customBlue2 text-xl  font-extralight">A short attention span refers to the difficulty in maintaining focus on a task or activity for an extended period. This can lead to distractions, reduced productivity, and difficulty completing tasks. It often results from overstimulation, stress, or habitual multitasking and can be exacerbated by digital media and constant notifications.</h1>
+      </div>
       <Canvas
-    style={{ height: "800px",
+    style={{ height: "900px",
       width: "800px"
     }} 
     camera={{ position: [0, 0, 5] }} 
@@ -57,9 +61,7 @@ const About = () => {
     <directionalLight position={[0, 0, 5]} intensity={1} />
     <RotatingModel url="src/assets/mobile.glb" />
   </Canvas>
-      <div className="flex-1 flex items-center justify-center mr-20 ">
-        <h1 className="border-8 border-white rounded-lg p-4 bg-gradient-to-r from-customBlue4 to-customBlue2 text-xl  font-extralight">A short attention span refers to the difficulty in maintaining focus on a task or activity for an extended period. This can lead to distractions, reduced productivity, and difficulty completing tasks. It often results from overstimulation, stress, or habitual multitasking and can be exacerbated by digital media and constant notifications.</h1>
-      </div>
+      
       </div>
     </div>
    
